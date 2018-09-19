@@ -1,0 +1,11 @@
+/***
+* write layout scss here
+*/
+
+* {
+  @include margin(0);
+  @include padding(0);
+  font-family: $font;
+  font-weight: $regular-font;
+  color: $black-color;
+}
