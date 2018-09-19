@@ -222,3 +222,7 @@
   @extend %button;
   @include buttonColor($secondary-color);
 }
+
+input {
+	-webkit-appearance: none;
+  }

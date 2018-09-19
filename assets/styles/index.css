@@ -108,6 +108,11 @@
   font-weight: 400;
   color: #120c19; }
 
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  input,
+  select,
+  textarea {
+    font-size: 14px !important; } }
 /***
 * write coman scss here
 */
@@ -226,5 +231,8 @@
   .button-secondary:hover {
     background-color: #50d2c2 !important;
     color: #ffffff !important; }
+
+input {
+  -webkit-appearance: none; }
 
 /*# sourceMappingURL=index.css.map */
