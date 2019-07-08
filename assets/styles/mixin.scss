@@ -1,6 +1,3 @@
-/***
-  * write mixin @functions here
- */
 @mixin margin($value...) {
   margin: $value;
 }
@@ -38,7 +35,7 @@
 }
 
 @mixin paddingRight($value) {
-  margin-right: $value;
+  padding-right: $value;
 }
 
 @mixin flex() {
